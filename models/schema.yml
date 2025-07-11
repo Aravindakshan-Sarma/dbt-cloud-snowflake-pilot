@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Cleaned and standardized customer data"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: customers_summary
+    description: "Customer count by country"
+    columns:
+      - name: country
+        tests:
+          - not_null
