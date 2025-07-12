@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: raw
-    database: dbt_demo
+    database: CS_DBT_DEMO
     schema: raw
     tables:
       - name: raw_customers
