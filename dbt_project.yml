@@ -12,5 +12,3 @@ models:
       +schema: staging
     marts:
       +schema: marts
-    something_unused:
-      +schema: unused
